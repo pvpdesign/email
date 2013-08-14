@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Your Message Subject or Title</title>
+	<style type="text/css">
+		/* Based on The MailChimp Reset INLINE: Yes. */  
+		/* Client-specific Styles */
+		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0;} 
+		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		/* Forces Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */ 
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		/* End reset */
+
+		/* Some sensible defaults for images
+		Bring inline: Yes. */
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;} 
+		a img {border:none;} 
+		.image_fix {display:block;}
+
+		/* Yahoo paragraph fix
+		Bring inline: Yes. */
+		p {margin: 1em 0;}
+
+		/* Hotmail header color reset
+		Bring inline: Yes. */
+		h1, h2, h3, h4, h5, h6 {color: black !important;}
+
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+		color: red !important; /* Preferably not the same color as the normal header link color.  There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+		color: purple !important; /* Preferably not the same color as the normal header link color. There is limited support for psuedo classes in email clients, this was added just for good measure. */
+		}
+
+		/* Outlook 07, 10 Padding issue fix
+		Bring inline: No.*/
+		table td {border-collapse: collapse;}
+
+    /* Remove spacing around Outlook 07, 10 tables
+    Bring inline: Yes */
+    table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+
+		/* Styling your links has become much simpler with the new Yahoo.  In fact, it falls in line with the main credo of styling in email and make sure to bring your styles inline.  Your link colors will be uniform across clients when brought inline.
+		Bring inline: Yes. */
+		a {color: orange;}
+
+
+		/***************************************************
+		****************************************************
+		MOBILE TARGETING
+		****************************************************
+		***************************************************/
+		@media only screen and (max-device-width: 480px) {
+			/* Part one of controlling phone number linking for mobile. */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+
+		}
+
+		/* More Specific Targeting */
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		/* You guessed it, ipad (tablets, smaller screens, etc) */
+			/* repeating for the ipad */
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: orange !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		/* Put your iPhone 4g styles in here */ 
+		}
+
+		/* Android targeting */
+		@media only screen and (-webkit-device-pixel-ratio:.75){
+		/* Put CSS for low density (ldpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1){
+		/* Put CSS for medium density (mdpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1.5){
+		/* Put CSS for high density (hdpi) Android layouts in here */
+		}
+		/* end Android targeting */
+
+	</style>
+
+	<!-- Targeting Windows Mobile -->
+	<!--[if IEMobile 7]>
+	<style type="text/css">
+	
+	</style>
+	<![endif]-->   
+
+	<!-- ***********************************************
+	****************************************************
+	END MOBILE TARGETING
+	****************************************************
+	************************************************ -->
+
+	<!--[if gte mso 9]>
+		<style>
+		/* Target Outlook 2007 and 2010 */
+		</style>
+	<![endif]-->
+</head>
+<body bgcolor="#061c39">
+
+<!-- Blank Table Row
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		
+	</tr>
+</table>
+
+-->
+<!-- **Above Email** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#061c39" align="center">
+	<tr>
+		<td width="600">
+    	<center><span style="color:#ffffff;">This is where we will include any copy prior to the email design!<br /><br />
+    	</span></center>
+		</td>
+	</tr>
+</table>
+
+
+<!-- Row 1 **Above Header** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#061c39" align="center">
+	<tr>
+		<td width="600">
+    	<img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/above-header.jpg" width="600" height="21" />
+		</td>
+	</tr>
+</table>
+
+<!-- Row 2 **Logo** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#003672" align="center">
+	<tr>
+		<td width="23"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/logo-left.jpg" width="23" height="81" /></td>
+		<td width="242"><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/logo.jpg" width="242" height="81" /></a></td>
+		<td width="50"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/logo-right.jpg" width="50" height="81" /></td>
+		<td width="242"><span style="color:#ffffff; font-family: Arial, sans-serif; font-size:24px;">Call Us Today!</span></td>
+		<td width="43"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/logo-far-right.jpg" width="43" height="81" /></td>
+	</tr>
+</table>
+
+<!-- Row 3 **Under Logo** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td width="600"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/logo-under.jpg" width="600" height="19" /></td>
+	</tr>
+</table>
+
+<!-- Row 4 **Above Content** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td width="600"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/content-top.jpg" width="600" height="13" /></td>
+	</tr>
+</table>
+
+<!-- Row 5 **Content Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" align="center">
+	<tr>
+		<td width="311"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/content-photo.jpg" width="311" height="210" /></td>
+		<td width="271"><span>We can add text here!</span></td>
+		<td width="18"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/content-right_0.jpg" width="18" height="210" /></td>
+	</tr>
+</table>
+
+<!-- Row 6 **Content Button Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/button-left.jpg" width="425" height="27" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/sign-up-button.jpg" width="132" height="27" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/button-right.jpg" width="43" height="27" /></td>
+	</tr>
+</table>
+
+<!-- Row 7 **Under Content Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/content-under.jpg" width="600" height="37" /></td>
+	</tr>
+</table>
+
+<!-- Row 8 **CTA Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/cta-left.jpg" width="24" height="260" /></td>
+		<td width="269"></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/cta-middle.jpg" width="22" height="260" /></td>
+		<td width="267"></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/cta-right.jpg" width="18" height="260" /></td>
+	</tr>
+</table>
+
+<!-- Row 9 **Social Top Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/socialbar-top.jpg" width="600" height="46" /></td>
+	</tr>
+</table>
+
+<!-- Row 10 **Social Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-left.jpg" width="91" height="42" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-logo1.jpg" width="142" height="42" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-logo-spacer.jpg" width="82" height="42" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-fb.jpg" width="40" height="42" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-fb-spacer.jpg" width="73" height="42" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-twit.jpg" width="41" height="42" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-twit-spacer.jpg" width="72" height="42" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-pin.jpg" width="40" height="42" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-right.jpg" width="19" height="42" /></td>
+	</tr>
+</table>
+
+<!-- Row 11 **Social Under1 Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-under-left.jpg" width="91" height="9" /></td>
+		<td><a href="#"><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-logo2.jpg" width="152" height="9" /></a></td>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-under-right.jpg" width="357" height="9" /></td>
+	</tr>
+</table>
+
+<!-- Row 12 **Social Under2 Area** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#10396f" align="center">
+	<tr>
+		<td><img style="display: block;" src="https://maildummy.fpmg-drupalgardens.com/sites/maildummy.fpmg-drupalgardens.com/files/201307/social-under-full.jpg" width="600" height="4" /></td>
+	</tr>
+</table>
+
+<!-- Row 13 **Universal Footer** -->
+<table width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#003672" align="center">
+	<tr height="100">
+		<td><span style="font-family: arial, sans-serif; font-size: 18px; color: #ffffff;">Footer stuff here</span></td>
+	</tr>
+</table>
+
+</body>
+</html>

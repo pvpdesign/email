@@ -1,0 +1,15 @@
+FHMG Mailchimp Credentials
+
+Email: Pasquale.Palazzolo@flhosp.org
+Username: FHMGIntMktg
+Password: emailcamp2012
+
+Security Question 1:  City your father was born in?
+Answer: Orlando
+
+Security Question 2:  Who was your childhood hero?
+Answer: Buck Rogers
+
+Security Question 3:  What was your first concert you attended?
+Answer: Aerosmith 1998
+

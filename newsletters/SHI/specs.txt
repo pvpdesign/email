@@ -1,0 +1,70 @@
+Row 1:
+1 column: 600 x 21px
+----------------------------------
+Row 2:
+5 columns: height 81px
+
+Col1: 23px wide
+Col2: 242px wide
+Col3: 50px wide
+Col4: 242px wide
+Col5: 432px wide
+----------------------------------
+Row 3:
+1 column: 600 x 19px
+----------------------------------
+Row 4:
+1 column: 600 x 13px
+----------------------------------
+Row 5:
+3 columns: height 210px
+Col1: 311px wide
+Col2: 271px wide
+Col3: 18px wide
+----------------------------------
+Row 6: 
+3 columns: height 27px
+Col1: 425px wide
+Col2: 132px wide
+Col3: 43px wide
+----------------------------------
+Row 7:
+1 column: 600px x 37px
+----------------------------------
+Row 8: 
+5 columns: height 260px
+Col1: 24px wide
+Col2: 269px wide
+Col3: 22px wide
+Col4: 267px wide
+Col5: 18px wide
+----------------------------------
+Row 9:
+1 column: 600 x 46px
+----------------------------------
+Row 10:
+9 columns: height 42px
+Col1: 91px wide
+Col2: 142px wide
+Col3: 82px wide
+Col4: 40px wide
+Col5: 73px wide
+Col6: 41px wide
+Col7: 72px wide
+Col8: 40px wide
+Col9: 19px wide
+----------------------------------
+Row 11: 
+3 columns: height 9px
+Col1: 91px wide
+col2: 152px wide
+Col3: 357px wide
+----------------------------------
+Row 12: 
+1 column: 600px x 4px
+----------------------------------
+Row 13:
+* columns: height 31px
+Col1: 91px wide
+Col2: 
+----------------------------------

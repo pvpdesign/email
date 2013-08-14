@@ -1,0 +1,26 @@
+FHMG QA Tester Accounts
+
+
+AOL Mail:
+User ID: fhmgqatester@aol.com
+Password: papa1975
+Security Quesion: What is your mother's maiden name?
+Answer: Librie
+
+Gmail:
+User ID: fhmgqatester@gmail.com
+Password: papa1975
+
+Hotmail:
+User ID: fhmgqatester@hotmail.com 
+Password: papa1975
+Security Question: Favorite Historical Person
+Answer: Abraham Lincoln
+
+Yahoo!: 
+User ID: fhmgqatester@yahoo.com
+Password: papa1975
+Security Question 1: What is the first name of your favorite aunt?
+Answer: Beatrice
+Security Question 2: What is the last name of your favorite teacher?
+Answer: Pagano
